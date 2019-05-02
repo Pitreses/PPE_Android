@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".lesTarifsActivity">
+
+    <Button
+            android:id="@+id/btnClassique"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/darker_gray"
+            android:text="Classique"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:visibility="visible"
+    />
+
+    <Button
+            android:id="@+id/btnCooperative"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/darker_gray"
+            android:text="Coopérative"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@+id/btnClassique"/>
+
+    <Button
+            android:id="@+id/btnLiberte"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/darker_gray"
+            android:text="Liberté"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@+id/btnCooperative"/>
+</android.support.constraint.ConstraintLayout>

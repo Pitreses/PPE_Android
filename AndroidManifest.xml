@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.autocool">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:usesCleartextTraffic="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".listeTarifsLIBKActivity">
+        </activity>
+        <activity android:name=".listeTarifsLIBHActivity">
+        </activity>
+        <activity android:name=".LiberteActivity">
+        </activity>
+        <activity android:name=".listeTarifsCPKActivity">
+        </activity>
+        <activity android:name=".listeTarifsCPHActivity">
+        </activity>
+        <activity android:name=".CooperativeActivity">
+        </activity>
+        <activity android:name=".listeTarifsCLQKActivity">
+        </activity>
+        <activity android:name=".lesTarifsActivity">
+        </activity>
+        <activity android:name=".listeTarifsCLQHActivity">
+        </activity>
+        <activity android:name=".ClassiqueActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
